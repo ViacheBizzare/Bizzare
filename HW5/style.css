@@ -86,8 +86,8 @@
   text-align: center;
   width: 205px;
   margin-bottom: 22px;
-  padding-left: 17px;
-  padding-right: 17px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 
 .button {
