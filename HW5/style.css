@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.html {
+  background-color: #fffcb0;
+}
+
+.body {
+  background-color: #fffcb0;
+}
+
+.main {
+  background-color: #b0c6ff;
+  width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+  width: 342px;
+  white-space: nowrap;
+  color: white;
+}
+
+.container {
+  width: 1076px;
+  margin-top: 49px;
+  margin-left: 62px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.image {
+  margin: 22px 50px 0 50px;
+  width: 139px;
+  height: 141px;
+}
+
+.card {
+  width: 239px;
+  border: 3px solid black;
+  background-color: white;
+  display: inline-block;
+  display: grid;
+  place-items: center;
+}
+
+.second-container {
+  width: 1076px;
+  margin-top: 85px;
+  margin-left: 62px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.second-card {
+  width: 239px;
+  border: 3px solid black;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 16px;
+  display: grid;
+  place-items: center;
+}
+
+.Bob {
+  font-family: Inter;
+  font-size: 12px;
+  margin: 10px 82px;
+  font-weight: 700;
+  width: 76px;
+}
+
+.Bob-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  width: 205px;
+  margin-bottom: 22px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.button {
+  background-color: #6177eb;
+  width: 160px;
+  height: 40px;
+  margin-bottom: 21px;
+}
+
+.button-text {
+  color: white;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  width: 63px;
+  text-align: center;
+}
