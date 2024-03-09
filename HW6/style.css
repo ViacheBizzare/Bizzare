@@ -91,9 +91,31 @@
   display: inline-block;
   margin-left: 54px;
   margin-top: 71px;
-  /* max-width: 1200px; */
+  vertical-align: top;
 }
 
+.info-second {
+  display: inline-block;
+  margin-left: 24px;
+  margin-top: 71px;
+  vertical-align: top;
+}
+
+.card {
+  display: inline-block;
+  margin-top: 71px;
+  padding-bottom: 82px;
+}
+
+.second-order {
+  background-color: #ccd3e7;
+  text-align-last: left;
+  margin-top: 47px;
+}
+.img-holder {
+  margin-top: 71px;
+  display: inline-block;
+}
 .step {
   height: 26px;
   font-size: 19px;
@@ -117,10 +139,6 @@
   margin-top: 70px;
 }
 
-.img-cards {
-  /* display: inline-block; */
-  /* vertical-align: top; */
-}
 .second-title {
   margin: auto;
   height: 91px;
@@ -130,6 +148,20 @@
   max-width: 506px;
 }
 
+.rec-btn {
+  margin-bottom: 21px;
+}
+.rec-button {
+  width: 144px;
+  height: 33px;
+  background-color: #FFFFFFk;
+  color: #000000;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .credit-title {
   height: 91px;
   font-size: 45px;
@@ -138,6 +170,9 @@
 
 .img-nike {
   margin-bottom: 29px;
+  margin-right: 19px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .credit-text {
@@ -145,14 +180,58 @@
   line-height: 24px;
   text-align: left;
 }
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  /* margin-top: 34px; */
+  margin-bottom: 28px;
+  max-width: 383px;
+}
+
+.read-btn {
+}
+
+.read-button {
+  width: 155px;
+  height: 51px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .second {
   background-color: #ccd3e7;
 }
 
-.img-holder {
-  display: inline-block;
-}
-
 .footer {
   background-color: black;
+}
+
+.about {
+  color: #b3b3b3;
+  max-width: 254px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 334px;
+  margin-top: 110px;
+}
+
+.container-about {
+  max-width: 1200px;
+}
+.about-nav {
+  text-align: right;
+}
+
+.list-item {
+  text-align: left;
+}
+
+.first-list {
+  margin-right: 36px;
 }
