@@ -4,9 +4,7 @@
   font-family: Roboto;
   font-weight: 400;
 }
-.main {
-  margin: auto;
-}
+
 .header {
   opacity: 0.93;
 }
@@ -27,7 +25,7 @@
 }
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .content-text {
@@ -86,12 +84,14 @@
 
 .wrapper {
   background-color: #fcd0ba;
+  text-align-last: left;
+  border-radius: 12px;
 }
 .info {
   display: inline-block;
   margin-left: 54px;
   margin-top: 71px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .step {
@@ -99,7 +99,7 @@
   font-size: 19px;
   line-height: 27px;
   display: block;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .step-title {
@@ -117,13 +117,9 @@
   margin-top: 70px;
 }
 
-.phone-img {
-  display: inline-block;
-  vertical-align: top;
-}
 .img-cards {
-  display: inline-block;
-  vertical-align: top;
+  /* display: inline-block; */
+  /* vertical-align: top; */
 }
 .second-title {
   margin: auto;
